@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jafritech.myapplication.MainActivity">
+
+
+    <item
+        android:id="@+id/action_contact_nav"
+        android:orderInCategory="100"
+        android:title="@string/navigate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contact_call"
+        android:orderInCategory="100"
+        android:title="@string/call"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contact_email"
+        android:orderInCategory="100"
+        android:title="@string/mail"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_contact_back"
+        android:orderInCategory="100"
+        android:title="@string/back"
+        app:showAsAction="never" />
+</menu>

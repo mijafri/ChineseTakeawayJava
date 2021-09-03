@@ -1,0 +1,154 @@
+{
+  "foodmenu": [
+    {
+      "itemId": 1,
+      "name": "Won Ton Soup",
+      "price": 3.60,
+      "img": "won_ton_soup_img"
+    },
+    {
+      "itemId": 2,
+      "name": "Hot n Sour Soup",
+      "price": 3.80,
+      "img": "hot_sour_soup_img"
+    },
+    {
+      "itemId": 3,
+      "name": "Sweetcorn Soup",
+      "price": 2.80,
+      "img": "sweetcorn_soup_img"
+    },
+    {
+      "itemId": 4,
+      "name": "Momos",
+      "price": 6.50,
+      "img": "momos_img"
+    },
+    {
+      "itemId": 5,
+      "name": "Pancake Rolls",
+      "price": 3.50,
+      "img": "pancake_rolls_img"
+    },
+    {
+      "itemId": 6,
+      "name": "Duck Spring Rolls",
+      "price": 4.50,
+      "img": "duck_spring_rolls_img"
+    },
+    {
+      "itemId": 7,
+      "name": "Crispy Won Ton",
+      "price": 4.6,
+      "img": "crispy_won_ton_img"
+    },
+    {
+      "itemId": 8,
+      "name": "Onion Rings",
+      "price": "3.20",
+      "img": "onion_rings_img"
+    },
+    {
+      "itemId": 9,
+      "name": "Crispy Seaweed",
+      "price": 4.00,
+      "img": "crispy_seaweed_img"
+    },
+    {
+      "itemId": 10,
+      "name": "Salt n Pepper Tofu",
+      "price": 5.80,
+      "img": "salt_pepper_tofu_img"
+    },
+    {
+      "itemId": 11,
+      "name": "Chicken Wings",
+      "price": 5.60,
+      "img": "chicken_wings_img"
+    },
+    {
+      "itemId": 12,
+      "name": "Veg. Fried Noodle",
+      "price": 5.60,
+      "img": "veg_fried_noodles_img"
+    },
+    {
+      "itemId": 13,
+      "name": "Veg. Fried Rice",
+      "price": 3.60,
+      "img": "veg_fried_rice_img"
+    },
+    {
+      "itemId": 14,
+      "name": "Beef Fried Rice",
+      "price": 6.20,
+      "img": "beef_fried_rice_img"
+    },
+    {
+      "itemId": 15,
+      "name": "Beef Fried Noodle",
+      "price": 7.50,
+      "img": "beef_fried_noodle_img"
+    },
+    {
+      "itemId": 16,
+      "name": "Shrimp Fried Rice",
+      "price": 6.00,
+      "img": "shrimp_fried_rice_img"
+    },
+    {
+      "itemId": 17,
+      "name": "Shrimp Fried Noodle",
+      "price": 6.80,
+      "img": "shrimp_fried_noodle_img"
+    },
+    {
+      "itemId": 18,
+      "name": "Egg Fried Rice",
+      "price": 3.50,
+      "img": "egg_fried_rice_img"
+    },
+    {
+      "itemId": 19,
+      "name": "Egg Fried Noodle",
+      "price": 4.20,
+      "img": "egg_fried_noodle_img"
+    },
+    {
+      "itemId": 20,
+      "name": "Boiled Rice",
+      "price": 2.60,
+      "img": "boiled_rice_img"
+    },
+    {
+      "itemId": 21,
+      "name": "Plain Noodle",
+      "price": 3.60,
+      "img": "plain_noodle_img"
+    },
+    {
+      "itemId": 22,
+      "name": "Duck Curry",
+      "price": 7.60,
+      "img": "duck_curry_img"
+    },
+    {
+      "itemId": 23,
+      "name": "Beef Curry",
+      "price": 7.20,
+      "img": "beef_curry_img"
+    },
+    {
+      "itemId": 24,
+      "name": "Shrimp Curry",
+      "price": 7.50,
+      "img": "shrimp_curry_img"
+    },
+    {
+      "itemId": 25,
+      "name": "Beef Foo Yung",
+      "price": 5.60,
+      "img": "beef_foo_yung_img"
+    }
+  ]
+}

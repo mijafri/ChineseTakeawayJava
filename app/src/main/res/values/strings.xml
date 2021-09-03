@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Chinese Takeaway</string>
+    <string name="app_name_j">Chinese Takeaway j</string>
+
+    <string name="chinese_takeaway">Chinese Takeaway</string>
+    <string name="logo">Logo</string>
+    <string name="main_image">main image</string>
+    <string name="menu">Menu</string>
+    <string name="about">About</string>
+    <string name="contact">Contact</string>
+    <string name="brand_logo">brand logo</string>
+    <string name="about_us">About Us</string>
+    <string name="camera">Take Photo</string>
+    <string name="close">Close</string>
+    <string name="title_bg">title background</string>
+    <string name="about_description">Welcome to the Happy Palace Chinese Restaurant Website based in Diss next to the Cornhall. We have both a 60 seater restaurant along with our takeaway service servicing Diss and the surrounding Villages. If your looking to book a table or a takeaway just give us a call on (01379) 641777.
+            <br /> <br /> We pride ourselves on providing great Chinese takeaway service within Diss and the Surrounding Villages.  We have a great selection of Dishes for you to try when ordering your takeaway with us.  We can also help cater for a larger party that your holding at home.
+            <br /> <br /> Welcome to the Happy Palace Restaurant and Takeaway website.  My name is Neal and with my fantastic team and family we run the restaurant and takeaway service here at the Happy Palace.
+                We love to cater for people within our 60 seater restaurant and have a large selection of dishes within our restaurant menu for you to try.  We understand that eating out is about two things the quality of food as well as the customer service you receive and we obtain to achieve both of these to the highest level.
+                We can cater for many types of events including birthdays, anniversaries, Christmas parties and even weddings yes weddings.  To see how we can help your special event just give us a call on (01379) 641888 and we will do our best to look after you.
+                To book a table at our restaurant call (01379) 641888 and we will be happy to accommodate you.
+    </string>
+
+    <string name="about_desc">Welcome to the Happy Palace Chinese Restaurant Website based in Diss next to the Cornhall. We have both a 60 seater restaurant along with our takeaway service servicing Diss and the surrounding Villages. If your looking to book a table or a takeaway just give us a call on (01379) 641777.
+             </string>
+    <string name="rest_image">Restaurant Image</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="address">Address:</string>
+
+    <string name="address_line1">Chinese Takeaway</string>
+    <string name="address_line2">King Squire Road</string>
+    <string name="address_line3">Town Circle, Telford</string>
+    <string name="address_line4">TF9 7TA, England</string>
+    <string name="contact1">Contact:</string>
+
+    <string name="contact_line1">Phone:</string>
+    <string name="contact_line2">01952 919191</string>
+    <string name="contact_line3">Mobile:</string>
+    <string name="contact_line4">07311 777777</string>
+    <string name="email">Email:</string>
+    <string name="email_line1">takeaway@gmail.com</string>
+    <string name="checkout">Checkout</string>
+    <string name="home">Home</string>
+    <string name="order">Order List</string>
+    <string name="order_title">Order</string>
+    <string name="del_details">Del. Details</string>
+    <string name="enter_contact">Enter contact No.</string>
+    <string name="enter_name">Enter name </string>
+    <string name="enter_delivery_address1">Enter house No. and Street:   </string>
+    <string name="enter_delivery_address2">Enter postcode:   </string>
+    <string name="add_line1">Address line1*</string>
+    <string name="add_line2">Address line2*</string>
+    <string name="enter_postcode">Enter postcode</string>
+    <string name="del_instruction">Delivery Instruction</string>
+    <string name="delivery_instruction">Delivery instruction if any</string>
+    <string name="name">Name*</string>
+    <string name="cont.">Contact*</string>
+    <string name="latitude">LAT.</string>
+    <string name="longitude">LONG.</string>
+    <string name="pick_location">Location (pick/enter)*</string>
+    <string name="pick_location_button">Pick Location</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="item">Item:</string>
+    <string name="price">Price:</string>
+    <string name="one">1</string>
+    <string name="qty">Qty:</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="add">Add</string>
+    <string name="item1">Item</string>
+
+    <!-- 36 -->
+    <string name="share_body"> <!-- contents appears as inside the share value -->
+
+        Chinese Takeaway Android Apps:\n
+
+    \n Google Play store:\n
+    https://play.google.com/store/apps/details?id=com.jafriapps.chinesetakeaway \n\n
+
+    Facebook Page:\n
+    https://www.facebook.com/chinesetakeaway/ \n\n
+
+    Thanks :)\n
+
+    Chinese Takeaway
+
+
+    </string>
+
+    <string name="conLatitude">52.67617493186758</string>
+    <string name="conLongitude">-2.4474543550264887</string>
+    <string name="contactNo">01952919191</string>
+    <string name="con_error_msg">You are offline, please connect to internet and try again</string>
+    <string name="details">Details</string>
+
+    <string name="opening_hour_h">7</string>
+    <string name="opening_hour_m">30</string>
+    <string name="closing_hour_h">21</string>
+    <string name="closing_hour_m">30</string>
+
+    <string name="empty_order_list_message">Your order List is Empty, Kindly Select item(s) before checkout.</string>
+    <string name="please_fill_form_completely">Please Fill the complete form.</string>
+    <string name="mail">Email</string>
+    <string name="back">Back</string>
+    <string name="navigate">Navigate</string>
+
+    <string name="google_location_link">http://maps.google.com/maps?q=loc:</string>
+
+    <string name="rest_email">takeaway@gmail.com</string>
+    <string name="email_subject">Information request</string>
+    <string name="email_type">text/html</string>
+    <string name="item_added_notification">Item Added to order list</string>
+    <string name="order_list_header">----------Order List----------</string>
+    <string name="food_image">food image</string>
+
+    <string name="lat_long_alert_message"> Keep clicking pick Location button until you get Lat. and Long. value</string>
+    <string name="emptyFields">Please enter all required detail. (*)</string>
+    <string name="email_sub_order">Order</string>
+    <string name="nav">Nav</string>
+    <string name="call">Call</string>
+    <string name="chicken_fried_rice">Chicken fried rice</string>
+    <string name="_20_00_unit_price">£ 20.00 (unit price)</string>
+    <string name="food_image_logo">food image</string>
+
+</resources>

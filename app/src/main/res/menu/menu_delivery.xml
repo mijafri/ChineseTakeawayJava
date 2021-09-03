@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jafritech.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_menu_delivery_pickLocation"
+        android:orderInCategory="100"
+        android:title="@string/pick_location_button"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu_delivery_submit"
+        android:orderInCategory="100"
+        android:title="@string/submit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu_delivery_clear"
+        android:orderInCategory="100"
+        android:title="@string/clear"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_menu_delivery_cancel"
+        android:orderInCategory="100"
+        android:title="@string/cancel"
+        app:showAsAction="never" />
+
+
+</menu>

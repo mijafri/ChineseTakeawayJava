@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".AboutActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideTitleStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <ImageView
+        android:id="@+id/imgTitleBg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/primaryColor"
+        android:contentDescription="@string/title_bg"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLogoStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+    <ImageView
+        android:id="@+id/logo_title_img"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/brand_logo"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toEndOf="@id/guideLogoEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLogoStart"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart"
+        app:srcCompat="@drawable/ctlogo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLogoEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideMidScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideMidline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideMidline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.57" />
+    <TextView
+        android:id="@+id/title_rest_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/andada"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        app:autoSizeMaxTextSize="48sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toStartOf="@+id/guideAboutEndLimit"
+        app:layout_constraintStart_toEndOf="@+id/logo_title_img"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart"
+        app:layout_constraintVertical_bias="0.0" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideNameEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.73" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideNameEnd12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.82" />
+
+    <TextView
+        android:id="@+id/title_page_heading_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andika"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="@string/details"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        app:autoSizeMaxTextSize="48sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toStartOf="@+id/guideRightEnd"
+        app:layout_constraintStart_toStartOf="@+id/guideNameEnd"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlCompat" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRightEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideAboutEndLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideTitleEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.09" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22" />
+
+    <TextView
+        android:id="@+id/textView331"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andada"
+        android:lines="1"
+        android:text="@string/item"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:autoSizeMaxTextSize="72sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart122"
+        app:layout_constraintEnd_toStartOf="@+id/guideMidline1"
+        app:layout_constraintStart_toStartOf="@+id/guideMidScreen"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart13" />
+
+
+    <TextView
+        android:id="@+id/tv_itemname"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/andada"
+        android:lines="1"
+        android:text="Chicken fried rice"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/text_color"
+        app:autoSizeMaxTextSize="72sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart122"
+        app:layout_constraintEnd_toStartOf="@+id/guideRightEnd"
+        app:layout_constraintStart_toStartOf="@+id/guideMidline1"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.32" />
+
+
+    <TextView
+        android:id="@+id/textView441"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andada"
+        android:lines="1"
+        android:text="@string/price"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:autoSizeMaxTextSize="72sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart1231"
+        app:layout_constraintEnd_toStartOf="@+id/guideMidline1"
+        app:layout_constraintStart_toStartOf="@+id/guideMidScreen"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart111" />
+
+    <TextView
+        android:id="@+id/tv_item_price"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/andada"
+        android:lines="1"
+        android:text="£ 20.00 (unit price)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/text_color"
+        app:autoSizeMaxTextSize="72sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart1231"
+        app:layout_constraintEnd_toStartOf="@+id/guideRightEnd"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/guideMidline1"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart111" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart1231"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42" />
+
+    <TextView
+        android:id="@+id/textView661"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andada"
+        android:lines="1"
+        android:text="@string/qty"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:autoSizeMaxTextSize="72sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart352"
+        app:layout_constraintEnd_toStartOf="@+id/guideMidline1"
+        app:layout_constraintStart_toStartOf="@+id/guideMidScreen"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart222" />
+
+    <TextView
+        android:id="@+id/tv_minus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/primaryColor"
+        android:gravity="center"
+        android:text="@string/minus"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="28sp"
+        app:autoSizeMinTextSize="6sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart352"
+        app:layout_constraintEnd_toStartOf="@+id/guideAboutEndLimit"
+        app:layout_constraintStart_toStartOf="@+id/guideMidline11"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart222" />
+
+    <TextView
+        android:id="@+id/tv_qty"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/primaryLightColor"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/one"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="36sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart352"
+        app:layout_constraintEnd_toStartOf="@+id/guideNameEnd"
+        app:layout_constraintStart_toStartOf="@+id/guideAboutEndLimit"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart222" />
+
+    <TextView
+        android:id="@+id/tv_plus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/primaryColor"
+        android:gravity="center"
+        android:text="@string/plus"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="28sp"
+        app:autoSizeMinTextSize="6sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart352"
+        app:layout_constraintEnd_toStartOf="@+id/guideNameEnd12"
+        app:layout_constraintStart_toStartOf="@+id/guideNameEnd"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart222" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart352"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart8952"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <TextView
+        android:id="@+id/tv_total_price"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andada"
+        android:lines="1"
+        android:text="1 Pc(s) of fried rice = £5.00"
+        app:autoSizeMaxTextSize="72sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart52"
+        app:layout_constraintEnd_toStartOf="@+id/guideRightEnd"
+        app:layout_constraintStart_toStartOf="@+id/guideMidScreen"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart8952" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidebodyStart123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/guidebodyStart123"
+        app:layout_constraintEnd_toStartOf="@+id/guideMidScreen"
+        app:layout_constraintStart_toStartOf="@+id/guideLogoStart"
+        app:layout_constraintTop_toTopOf="@+id/guidebodyStart12"
+        app:srcCompat="@drawable/home_image"
+        android:contentDescription="@string/food_image"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/BodyGuideEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.84" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/buttonGuideStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+    <Button
+        android:id="@+id/cancel_item_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/andada"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/cancel"
+        app:autoSizeMaxTextSize="28sp"
+        app:autoSizeMinTextSize="6sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGuideEnd"
+        app:layout_constraintEnd_toStartOf="@+id/add_item_btn"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonGuideStart" />
+
+    <Button
+        android:id="@+id/add_item_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/andada"
+        android:paddingStart="1dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="1dp"
+        android:paddingBottom="8dp"
+        android:text="@string/add"
+        app:autoSizeMaxTextSize="28sp"
+        app:autoSizeMinTextSize="6sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGuideEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cancel_item_btn"
+        app:layout_constraintTop_toTopOf="@+id/buttonGuideStart" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/buttonGuideEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

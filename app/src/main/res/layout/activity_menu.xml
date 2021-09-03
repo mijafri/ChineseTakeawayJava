@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".AboutActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideTitleStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <ImageView
+        android:id="@+id/imgTitleBg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/primaryColor"
+        android:contentDescription="@string/title_bg"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLogoStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+    <ImageView
+        android:id="@+id/logo_title_img"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/brand_logo"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toEndOf="@id/guideLogoEnd"
+        app:layout_constraintStart_toStartOf="@id/guideLogoStart"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart"
+        app:srcCompat="@drawable/ctlogo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLogoEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.14" />
+
+    <TextView
+        android:id="@+id/title_rest_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/andada"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        app:autoSizeMaxTextSize="48sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toStartOf="@+id/guideAboutEndLimit"
+        app:layout_constraintStart_toEndOf="@+id/logo_title_img"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart"
+        app:layout_constraintVertical_bias="0.0" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideNameEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.73" />
+
+    <TextView
+        android:id="@+id/title_page_heading_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andika"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="@string/menu"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        app:autoSizeMaxTextSize="48sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guideTitleEnd"
+        app:layout_constraintEnd_toStartOf="@+id/guideRightEnd"
+        app:layout_constraintStart_toStartOf="@+id/guideNameEnd"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleStart"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlCompat" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRightEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideAboutEndLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideTitleEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/buttonGuideStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+    <Button
+        android:id="@+id/orderlist_menu_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/andada"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:text="@string/order"
+        app:autoSizeMaxTextSize="28sp"
+        app:autoSizeMinTextSize="6sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGuideEnd"
+        app:layout_constraintEnd_toStartOf="@+id/checkout_menu_btn"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonGuideStart" />
+
+    <Button
+        android:id="@+id/checkout_menu_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/andada"
+        android:paddingStart="1dp"
+        android:paddingTop="13dp"
+        android:paddingEnd="1dp"
+        android:paddingBottom="13dp"
+        android:text="@string/checkout"
+        app:autoSizeMaxTextSize="28sp"
+        app:autoSizeMinTextSize="6sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGuideEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/orderlist_menu_btn"
+        app:layout_constraintTop_toTopOf="@+id/buttonGuideStart" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/buttonGuideEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menulist_menu_rv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/menu_layout_adapter"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGuideStart"
+        app:layout_constraintEnd_toStartOf="@+id/guideRightEnd"
+        app:layout_constraintStart_toStartOf="@+id/guideLogoStart"
+        app:layout_constraintTop_toTopOf="@+id/guideTitleEnd" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
